@@ -3,8 +3,8 @@ name: 02 - Workflow Events
 on:
     push:
     pull_request:
-    schedule:
-        - cron: '22 20 * * *'
+    #schedule:
+    #    - cron: '22 20 * * *'
 
 jobs:
     echo:
